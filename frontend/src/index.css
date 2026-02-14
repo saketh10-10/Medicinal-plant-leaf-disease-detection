@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    background-color: #022c22;
+    background-image: radial-gradient(circle at 50% 0%, #064e3b 0%, #022c22 100%);
+    color: #ecfdf5;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .glass-card {
+    backdrop-filter: blur(12px);
+    background-color: rgba(2, 44, 34, 0.4);
+    border: 1px solid rgba(74, 222, 128, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .gradient-primary {
+    background: linear-gradient(to right, #4ade80, #fbbf24);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,876 @@
+{
+  "AloeVera_healthy": {
+    "scientific_name": "Aloe barbadensis miller",
+    "common_name": "Aloe Vera",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "Anti-inflammatory properties",
+      "Wound healing and skin regeneration",
+      "Antioxidant effects",
+      "Digestive health support",
+      "Immune system boost",
+      "Burn and sunburn relief"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Water every 2-3 weeks, allowing soil to dry completely between waterings",
+      "Place in bright, indirect sunlight",
+      "Use well-draining soil mix specifically for succulents",
+      "Maintain temperature between 60-75°F (15-24°C)",
+      "Harvest gel from mature leaves for topical use",
+      "Avoid overwatering to prevent root rot"
+    ]
+  },
+  "AloeVera_diseased": {
+    "scientific_name": "Aloe barbadensis miller",
+    "common_name": "Aloe Vera",
+    "medicinal_properties": [
+      "Anti-inflammatory properties",
+      "Wound healing and skin regeneration",
+      "Antioxidant effects",
+      "Digestive health support",
+      "Immune system boost",
+      "Burn and sunburn relief"
+    ],
+    "plant_health_status": "Diseased",
+    "detected_diseases": [
+      {
+        "name": "Root Rot",
+        "severity": "High",
+        "symptoms": [
+          "Yellowing and softening of leaves",
+          "Mushy, brown roots",
+          "Foul odor from soil",
+          "Plant wilting despite watering",
+          "Black spots on leaves",
+          "Slowed growth"
+        ],
+        "remedies": [
+          "Remove plant from soil immediately",
+          "Trim away all affected roots and leaves",
+          "Repot in fresh, sterile soil with good drainage",
+          "Reduce watering frequency significantly",
+          "Ensure pot has drainage holes",
+          "Use fungicide if fungal infection is severe",
+          "Monitor closely for 2-3 weeks"
+        ]
+      },
+      {
+        "name": "Leaf Spot Disease",
+        "severity": "Medium",
+        "symptoms": [
+          "Dark brown or black spots on leaves",
+          "Yellow halos around spots",
+          "Spots may have concentric rings",
+          "Leaves becoming brittle",
+          "Premature leaf drop"
+        ],
+        "remedies": [
+          "Remove and destroy affected leaves",
+          "Improve air circulation around plant",
+          "Avoid overhead watering",
+          "Apply copper-based fungicide",
+          "Space plants to prevent spread",
+          "Ensure proper light exposure"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate diseased plant from healthy plants",
+      "Treat identified diseases immediately",
+      "Improve air circulation and reduce humidity",
+      "Adjust watering to prevent further root issues",
+      "Use sterile tools when pruning",
+      "Monitor for disease spread to other plants",
+      "Consider repotting in fresh soil"
+    ]
+  },
+  "Hibiscus_healthy": {
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "common_name": "Hibiscus",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "Antioxidant rich properties",
+      "Cardiovascular health support",
+      "Blood pressure regulation",
+      "Anti-inflammatory effects",
+      "Liver health support",
+      "Digestive aid",
+      "Immune system enhancement",
+      "Diuretic properties",
+      "Anti-cancer properties"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun to partial shade (6+ hours daily)",
+      "Water regularly, keeping soil moist but not waterlogged",
+      "Use well-draining, fertile soil",
+      "Fertilize every 4-6 weeks during growing season",
+      "Prune in late winter to encourage new growth",
+      "Protect from frost and cold temperatures",
+      "Deadhead spent flowers to promote continuous blooming",
+      "Monitor for pests like aphids and spider mites"
+    ]
+  },
+  "Hibiscus_diseased": {
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "common_name": "Hibiscus",
+    "medicinal_properties": [
+      "Antioxidant rich properties",
+      "Cardiovascular health support",
+      "Blood pressure regulation",
+      "Anti-inflammatory effects",
+      "Liver health support",
+      "Digestive aid",
+      "Immune system enhancement"
+    ],
+    "plant_health_status": "Diseased",
+    "detected_diseases": [
+      {
+        "name": "Leaf Blight",
+        "severity": "High",
+        "symptoms": [
+          "Dark brown or black spots on leaves",
+          "Yellowing of leaf edges",
+          "Leaves becoming brittle and curling",
+          "Premature leaf drop",
+          "White fungal growth on leaf undersides",
+          "Stunted flower production"
+        ],
+        "remedies": [
+          "Remove and destroy affected leaves immediately",
+          "Improve air circulation by spacing plants",
+          "Avoid overhead watering to reduce leaf moisture",
+          "Apply fungicide containing copper or chlorothalonil",
+          "Ensure proper sunlight exposure",
+          "Reduce nitrogen fertilizer temporarily",
+          "Water at soil level, not on leaves"
+        ]
+      },
+      {
+        "name": "Aphid Infestation",
+        "severity": "Medium",
+        "symptoms": [
+          "Clusters of small, soft-bodied insects on new growth",
+          "Curling and distortion of young leaves",
+          "Sticky honeydew residue on leaves",
+          "Black sooty mold growth",
+          "Stunted growth and reduced flowering",
+          "Ants attracted to honeydew"
+        ],
+        "remedies": [
+          "Spray with strong water jet to dislodge aphids",
+          "Apply insecticidal soap or neem oil",
+          "Introduce beneficial insects like ladybugs",
+          "Remove heavily infested plant parts",
+          "Avoid broad-spectrum insecticides that harm beneficial insects",
+          "Monitor regularly for early detection"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate affected plants to prevent disease spread",
+      "Improve air circulation and reduce humidity",
+      "Avoid overhead watering",
+      "Apply appropriate fungicides or insecticides",
+      "Remove and destroy heavily diseased plant parts",
+      "Ensure proper nutrition without excess nitrogen",
+      "Monitor soil moisture and drainage"
+    ]
+  },
+  "Lemon_healthy": {
+    "scientific_name": "Citrus limon",
+    "common_name": "Lemon Tree",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "High vitamin C content for immune support",
+      "Antioxidant properties",
+      "Digestive health support",
+      "Alkalizing effects on body",
+      "Skin health and complexion improvement",
+      "Respiratory health support",
+      "Detoxification aid",
+      "Antimicrobial properties",
+      "Anti-inflammatory effects"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun (8+ hours daily)",
+      "Water deeply but infrequently, allowing top soil to dry",
+      "Use well-draining, slightly acidic soil",
+      "Fertilize regularly during growing season",
+      "Protect from frost and cold temperatures",
+      "Prune for shape and remove dead/diseased branches",
+      "Harvest fruits when fully ripe and yellow",
+      "Monitor for pests regularly"
+    ]
+  },
+  "Lemon_diseased": {
+    "scientific_name": "Citrus limon",
+    "common_name": "Lemon Tree",
+    "medicinal_properties": [
+      "High vitamin C content for immune support",
+      "Antioxidant properties",
+      "Digestive health support",
+      "Alkalizing effects on body",
+      "Skin health and complexion improvement",
+      "Respiratory health support",
+      "Detoxification aid"
+    ],
+    "plant_health_status": "Diseased",
+    "detected_diseases": [
+      {
+        "name": "Citrus Canker",
+        "severity": "High",
+        "symptoms": [
+          "Raised, corky lesions on leaves, stems, and fruits",
+          "Dark brown spots with yellow halos",
+          "Lesions may be surrounded by water-soaked margins",
+          "Premature leaf drop",
+          "Fruit may develop raised lesions",
+          "Reduced fruit quality and yield"
+        ],
+        "remedies": [
+          "Remove and destroy affected plant parts",
+          "Apply copper-based fungicide preventively",
+          "Improve air circulation",
+          "Avoid overhead irrigation",
+          "Prune infected branches well below lesions",
+          "Disinfect tools between cuts",
+          "Monitor for spread to other citrus plants"
+        ]
+      },
+      {
+        "name": "Citrus Greening (HLB)",
+        "severity": "Very High",
+        "symptoms": [
+          "Yellowing of leaf veins (chlorosis)",
+          "Asymmetric leaf mottling",
+          "Stunted, upright growth",
+          "Smaller, misshapen fruits",
+          "Bitter taste in fruits",
+          "Premature fruit drop",
+          "Overall tree decline"
+        ],
+        "remedies": [
+          "Remove and destroy infected trees",
+          "Control Asian citrus psyllid vectors",
+          "Use disease-free rootstock for propagation",
+          "Regular monitoring and early detection",
+          "Nutrient management to support tree health",
+          "Consider replanting with resistant varieties",
+          "Consult agricultural extension services"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate diseased trees from healthy ones",
+      "Implement strict sanitation practices",
+      "Control insect vectors",
+      "Apply preventive fungicide sprays",
+      "Monitor soil nutrition and pH",
+      "Prune to improve air circulation",
+      "Consider professional arborist consultation for severe cases"
+    ]
+  },
+  "neem_healthy": {
+    "scientific_name": "Azadirachta indica",
+    "common_name": "Neem Tree",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "Powerful antibacterial and antiviral properties",
+      "Anti-inflammatory and analgesic effects",
+      "Immunomodulatory activity",
+      "Antioxidant protection",
+      "Antifungal properties",
+      "Blood sugar regulation",
+      "Skin health and healing",
+      "Digestive system support",
+      "Pest repellent properties",
+      "Anti-cancer properties",
+      "Cardiovascular health support"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun exposure",
+      "Water moderately, allowing soil to dry between waterings",
+      "Use well-draining, sandy loam soil",
+      "Fertilize lightly during growing season",
+      "Can tolerate drought and poor soil conditions",
+      "Prune for shape and to encourage bushier growth",
+      "Protect young plants from frost",
+      "Natural pest resistance makes it low-maintenance"
+    ]
+  },
+  "neem_diseased": {
+    "scientific_name": "Azadirachta indica",
+    "common_name": "Neem Tree",
+    "medicinal_properties": [
+      "Powerful antibacterial and antiviral properties",
+      "Anti-inflammatory and analgesic effects",
+      "Immunomodulatory activity",
+      "Antioxidant protection",
+      "Antifungal properties",
+      "Blood sugar regulation",
+      "Skin health and healing",
+      "Digestive system support",
+      "Pest repellent properties"
+    ],
+    "plant_health_status": "Diseased",
+    "detected_diseases": [
+      {
+        "name": "Neem Leaf Spot",
+        "severity": "Medium",
+        "symptoms": [
+          "Circular to irregular brown spots on leaves",
+          "Spots may have yellow halos",
+          "Affected leaves may curl or drop prematurely",
+          "Fungal growth visible on leaf undersides",
+          "Reduced photosynthetic capacity",
+          "Overall weakened tree health"
+        ],
+        "remedies": [
+          "Remove and destroy affected leaves",
+          "Improve air circulation by pruning",
+          "Apply copper-based fungicide",
+          "Avoid overhead watering",
+          "Ensure proper spacing between trees",
+          "Apply neem oil as preventive treatment",
+          "Monitor soil drainage to prevent water stress"
+        ]
+      },
+      {
+        "name": "Root Rot",
+        "severity": "High",
+        "symptoms": [
+          "Yellowing and wilting of leaves",
+          "Stunted growth and reduced vigor",
+          "Dark, mushy roots",
+          "Foul odor from soil",
+          "Branch dieback from tips",
+          "Premature leaf drop",
+          "Tree may lean or become unstable"
+        ],
+        "remedies": [
+          "Improve soil drainage immediately",
+          "Reduce watering frequency",
+          "Apply fungicide to soil",
+          "Remove affected roots and repot if in container",
+          "Ensure proper soil aeration",
+          "Apply mycorrhizal fungi to improve root health",
+          "Monitor for continued decline and consider tree removal if severe"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Improve soil drainage and aeration",
+      "Adjust watering practices to prevent overwatering",
+      "Apply appropriate fungicides or treatments",
+      "Prune affected branches and improve air circulation",
+      "Monitor soil pH and nutrient levels",
+      "Isolate from other plants during treatment",
+      "Consider professional arboricultural consultation"
+    ]
+  },
+  "tulsi_healthy": {
+    "scientific_name": "Ocimum sanctum",
+    "common_name": "Holy Basil (Tulsi)",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "Adaptogenic properties for stress relief",
+      "Powerful antioxidant effects",
+      "Anti-inflammatory and analgesic properties",
+      "Antimicrobial and antiviral activity",
+      "Immune system enhancement",
+      "Respiratory health support",
+      "Digestive system aid",
+      "Cardiovascular health support",
+      "Blood sugar regulation",
+      "Anti-cancer properties",
+      "Antimicrobial properties",
+      "Anti-diabetic effects"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun to partial shade (4-6 hours daily)",
+      "Water regularly, keeping soil consistently moist",
+      "Use well-draining, fertile soil",
+      "Fertilize monthly during growing season",
+      "Can be grown indoors with sufficient light",
+      "Pinch flowers to encourage leaf production",
+      "Protect from cold temperatures below 50°F",
+      "Regular harvesting encourages new growth"
+    ]
+  },
+  "tulsi_diseased": {
+    "scientific_name": "Ocimum sanctum",
+    "common_name": "Holy Basil (Tulsi)",
+    "medicinal_properties": [
+      "Adaptogenic properties for stress relief",
+      "Powerful antioxidant effects",
+      "Anti-inflammatory and analgesic properties",
+      "Antimicrobial and antiviral activity",
+      "Immune system enhancement",
+      "Respiratory health support",
+      "Digestive system aid",
+      "Cardiovascular health support",
+      "Blood sugar regulation",
+      "Anti-cancer properties"
+    ],
+    "plant_health_status": "Diseased",
+    "detected_diseases": [
+      {
+        "name": "Downy Mildew",
+        "severity": "High",
+        "symptoms": [
+          "Yellow patches on upper leaf surfaces",
+          "White to grayish fungal growth on leaf undersides",
+          "Leaves becoming distorted and curling",
+          "Brown necrotic spots developing",
+          "Premature leaf drop",
+          "Stunted plant growth",
+          "Reduced leaf production"
+        ],
+        "remedies": [
+          "Remove and destroy affected leaves immediately",
+          "Improve air circulation by spacing plants",
+          "Avoid overhead watering completely",
+          "Apply fungicide containing copper or mancozeb",
+          "Reduce humidity around plants",
+          "Water at soil level in morning",
+          "Use drip irrigation if possible",
+          "Apply preventive fungicide sprays"
+        ]
+      },
+      {
+        "name": "Bacterial Leaf Spot",
+        "severity": "Medium",
+        "symptoms": [
+          "Small, water-soaked spots on leaves",
+          "Spots enlarge and turn brown or black",
+          "Yellow halos around spots",
+          "Leaves becoming brittle and cracking",
+          "Premature defoliation",
+          "Reduced plant vigor"
+        ],
+        "remedies": [
+          "Remove and destroy affected plant parts",
+          "Avoid working with plants when wet",
+          "Apply copper-based bactericide",
+          "Improve air circulation",
+          "Reduce leaf wetness duration",
+          "Use pathogen-free seeds for propagation",
+          "Rotate crops if grown in garden beds"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate affected plants to prevent disease spread",
+      "Improve air circulation and reduce humidity",
+      "Avoid overhead watering and wet foliage",
+      "Apply appropriate fungicides or bactericides",
+      "Remove and dispose of diseased plant material",
+      "Ensure proper plant spacing",
+      "Monitor soil moisture without overwatering",
+      "Consider replanting with disease-resistant varieties"
+    ]
+  },
+  "Chinar_healthy": {
+    "scientific_name": "Platanus orientalis",
+    "common_name": "Oriental Plane Tree (Chinar)",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "Anti-inflammatory properties",
+      "Antimicrobial effects",
+      "Traditional remedy for skin conditions",
+      "Diuretic properties",
+      "Respiratory health support",
+      "Digestive aid",
+      "Pain relief properties"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun exposure (6-8 hours daily)",
+      "Water deeply but infrequently, allowing soil to dry between waterings",
+      "Use well-draining, fertile soil",
+      "Fertilize in spring and summer with balanced fertilizer",
+      "Prune in late winter to maintain shape",
+      "Protect from strong winds that can damage leaves",
+      "Mulch around base to retain moisture",
+      "Monitor for aphids and scale insects"
+    ]
+  },
+  "Chinar_diseased": {
+    "scientific_name": "Platanus orientalis",
+    "common_name": "Oriental Plane Tree (Chinar)",
+    "plant_health_status": "Diseased",
+    "medicinal_properties": [
+      "Anti-inflammatory properties",
+      "Antimicrobial effects",
+      "Traditional remedy for skin conditions",
+      "Diuretic properties",
+      "Respiratory health support",
+      "Digestive aid",
+      "Pain relief properties"
+    ],
+    "detected_diseases": [
+      {
+        "name": "Anthracnose",
+        "severity": "High",
+        "symptoms": [
+          "Brown spots on leaves with yellow halos",
+          "Irregular brown blotches on leaves",
+          "Leaf curling and distortion",
+          "Premature leaf drop",
+          "Black fungal fruiting bodies on leaves",
+          "Dieback of twigs and branches"
+        ],
+        "remedies": [
+          "Remove and destroy affected leaves immediately",
+          "Improve air circulation by pruning dense growth",
+          "Apply fungicide containing copper or chlorothalonil",
+          "Avoid overhead watering",
+          "Ensure proper plant spacing",
+          "Apply preventive fungicide in spring",
+          "Collect and destroy fallen leaves"
+        ]
+      },
+      {
+        "name": "Powdery Mildew",
+        "severity": "Medium",
+        "symptoms": [
+          "White, powdery coating on upper leaf surfaces",
+          "Yellowing of affected leaves",
+          "Leaf curling and distortion",
+          "Reduced photosynthetic capacity",
+          "Premature leaf drop",
+          "Stunted growth"
+        ],
+        "remedies": [
+          "Improve air circulation around plants",
+          "Reduce humidity by avoiding overhead watering",
+          "Apply sulfur-based fungicide",
+          "Remove and destroy heavily infected leaves",
+          "Ensure adequate sunlight penetration",
+          "Apply neem oil as preventive treatment",
+          "Avoid excessive nitrogen fertilization"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate affected trees from healthy ones",
+      "Improve air circulation through proper pruning",
+      "Apply appropriate fungicides preventively",
+      "Monitor soil moisture and drainage",
+      "Remove and destroy fallen leaves and debris",
+      "Ensure proper nutrition without excess nitrogen",
+      "Consider professional arboricultural consultation"
+    ]
+  },
+  "Gauva_healthy": {
+    "scientific_name": "Psidium guajava",
+    "common_name": "Guava Tree",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "High vitamin C content for immune support",
+      "Antioxidant properties",
+      "Digestive health support",
+      "Blood sugar regulation",
+      "Cardiovascular health benefits",
+      "Anti-inflammatory effects",
+      "Antimicrobial properties",
+      "Skin health support",
+      "Weight management aid"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun exposure (6-8 hours daily)",
+      "Water regularly during dry periods, keeping soil consistently moist",
+      "Use well-draining, slightly acidic soil",
+      "Fertilize every 2-3 months during growing season",
+      "Prune annually to maintain shape and remove dead wood",
+      "Protect young trees from frost",
+      "Harvest fruits when fully ripe",
+      "Monitor for fruit flies and other pests"
+    ]
+  },
+  "Gauva_diseased": {
+    "scientific_name": "Psidium guajava",
+    "common_name": "Guava Tree",
+    "plant_health_status": "Diseased",
+    "medicinal_properties": [
+      "High vitamin C content for immune support",
+      "Antioxidant properties",
+      "Digestive health support",
+      "Blood sugar regulation",
+      "Cardiovascular health benefits",
+      "Anti-inflammatory effects",
+      "Antimicrobial properties",
+      "Skin health support",
+      "Weight management aid"
+    ],
+    "detected_diseases": [
+      {
+        "name": "Guava Wilt",
+        "severity": "Very High",
+        "symptoms": [
+          "Sudden wilting of leaves and branches",
+          "Yellowing of leaves starting from base",
+          "Drying and curling of leaves",
+          "Dieback of twigs and branches",
+          "Brown discoloration in vascular tissues",
+          "Fruit drop and reduced yield",
+          "Tree may die within weeks"
+        ],
+        "remedies": [
+          "Remove and destroy infected trees immediately",
+          "Avoid planting guava in infected areas for 3-5 years",
+          "Use certified disease-free seedlings",
+          "Improve soil drainage",
+          "Control root-knot nematodes",
+          "Apply preventive fungicide treatments",
+          "Implement proper sanitation practices"
+        ]
+      },
+      {
+        "name": "Anthracnose",
+        "severity": "Medium",
+        "symptoms": [
+          "Small, dark spots on leaves and fruits",
+          "Spots with concentric rings",
+          "Pink spore masses in humid conditions",
+          "Leaf drop and defoliation",
+          "Fruit rot and premature fruit drop",
+          "Reduced fruit quality and yield"
+        ],
+        "remedies": [
+          "Remove and destroy affected plant parts",
+          "Apply copper-based fungicide preventively",
+          "Improve air circulation through pruning",
+          "Avoid overhead irrigation",
+          "Harvest fruits promptly when ripe",
+          "Apply fungicide during flowering and fruit development",
+          "Collect and destroy fallen leaves and fruits"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate diseased trees from healthy ones",
+      "Implement strict sanitation and pruning practices",
+      "Apply preventive fungicide treatments",
+      "Monitor soil moisture and avoid waterlogging",
+      "Remove and destroy diseased plant material",
+      "Ensure proper nutrition and soil pH",
+      "Control insect vectors if applicable",
+      "Consider professional agricultural consultation"
+    ]
+  },
+  "Jamun _diseased": {
+    "scientific_name": "Syzygium cumini",
+    "common_name": "Indian Blackberry (Jamun)",
+    "plant_health_status": "Diseased",
+    "medicinal_properties": [
+      "Blood sugar regulation",
+      "Digestive health support",
+      "Antioxidant properties",
+      "Heart health benefits",
+      "Anti-inflammatory effects",
+      "Diuretic properties",
+      "Oral health support",
+      "Immune system enhancement"
+    ],
+    "detected_diseases": [
+      {
+        "name": "Anthracnose",
+        "severity": "High",
+        "symptoms": [
+          "Irregular brown spots on leaves and fruits",
+          "Spots with concentric rings",
+          "Pink spore masses in humid conditions",
+          "Leaf curling and distortion",
+          "Premature leaf drop",
+          "Fruit rot and lesions",
+          "Reduced fruit quality and yield"
+        ],
+        "remedies": [
+          "Remove and destroy affected plant parts",
+          "Apply copper-based fungicide preventively",
+          "Improve air circulation through pruning",
+          "Avoid overhead irrigation",
+          "Harvest fruits promptly when ripe",
+          "Apply fungicide during flowering and fruit development",
+          "Ensure proper plant spacing",
+          "Collect and destroy fallen leaves and fruits"
+        ]
+      },
+      {
+        "name": "Leaf Spot Disease",
+        "severity": "Medium",
+        "symptoms": [
+          "Circular to irregular spots on leaves",
+          "Spots may be brown, black, or gray",
+          "Yellow halos around spots",
+          "Multiple spots may coalesce",
+          "Premature defoliation",
+          "Reduced photosynthetic capacity",
+          "Weakened tree health"
+        ],
+        "remedies": [
+          "Remove and destroy affected leaves",
+          "Apply copper-based fungicide",
+          "Improve air circulation by pruning",
+          "Avoid overhead watering",
+          "Ensure proper spacing between trees",
+          "Apply preventive fungicide sprays",
+          "Monitor soil drainage to prevent water stress"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate diseased trees from healthy ones",
+      "Implement proper pruning for air circulation",
+      "Apply preventive fungicide treatments",
+      "Monitor soil moisture and drainage",
+      "Remove and destroy diseased plant material",
+      "Ensure proper nutrition and soil pH",
+      "Control insect vectors if applicable",
+      "Consider professional arboricultural consultation"
+    ]
+  },
+  "Jamun _healthy": {
+    "scientific_name": "Syzygium cumini",
+    "common_name": "Indian Blackberry (Jamun)",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "Blood sugar regulation",
+      "Digestive health support",
+      "Antioxidant properties",
+      "Heart health benefits",
+      "Anti-inflammatory effects",
+      "Diuretic properties",
+      "Oral health support",
+      "Immune system enhancement",
+      "Weight management aid"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun to partial shade (4-6 hours daily)",
+      "Water regularly during dry periods, allowing soil to dry slightly",
+      "Use well-draining, fertile soil",
+      "Fertilize lightly during growing season",
+      "Prune annually to maintain shape and remove dead wood",
+      "Protect young trees from frost",
+      "Harvest fruits when fully ripe and purple-black",
+      "Monitor for fruit flies and other pests"
+    ]
+  },
+  "Saptaparni_diseased": {
+    "scientific_name": "Alstonia scholaris",
+    "common_name": "Devil's Tree (Saptaparni)",
+    "plant_health_status": "Diseased",
+    "medicinal_properties": [
+      "Antimalarial properties",
+      "Antimicrobial effects",
+      "Anti-inflammatory activity",
+      "Antidiabetic properties",
+      "Cardiovascular health support",
+      "Respiratory health aid",
+      "Traditional remedy for fevers",
+      "Digestive system support"
+    ],
+    "detected_diseases": [
+      {
+        "name": "Leaf Blight",
+        "severity": "High",
+        "symptoms": [
+          "Large, irregular brown lesions on leaves",
+          "Lesions may cover entire leaf surface",
+          "Yellow halos around lesions",
+          "Leaf curling and distortion",
+          "Premature leaf drop",
+          "Defoliation and weakened tree",
+          "Reduced growth and vigor"
+        ],
+        "remedies": [
+          "Remove and destroy affected leaves immediately",
+          "Improve air circulation through pruning",
+          "Apply copper-based fungicide",
+          "Avoid overhead watering",
+          "Ensure proper plant spacing",
+          "Apply preventive fungicide sprays",
+          "Monitor soil moisture and drainage",
+          "Use cultural practices to reduce humidity"
+        ]
+      },
+      {
+        "name": "Root Rot",
+        "severity": "Medium",
+        "symptoms": [
+          "Yellowing of lower leaves",
+          "Wilting despite adequate watering",
+          "Stunted growth and reduced leaf size",
+          "Dark, mushy roots",
+          "Foul odor from soil",
+          "Branch dieback",
+          "Overall tree decline"
+        ],
+        "remedies": [
+          "Improve soil drainage immediately",
+          "Reduce watering frequency",
+          "Apply soil fungicide",
+          "Remove affected roots if possible",
+          "Repot in fresh, sterile soil",
+          "Ensure proper soil aeration",
+          "Monitor for continued decline"
+        ]
+      }
+    ],
+    "care_recommendations": [
+      "Isolate diseased trees from healthy ones",
+      "Improve soil drainage and aeration",
+      "Apply appropriate fungicides preventively",
+      "Prune for better air circulation",
+      "Monitor soil moisture levels",
+      "Remove and destroy diseased plant material",
+      "Ensure proper nutrition and pH balance",
+      "Consider professional arboricultural consultation"
+    ]
+  },
+  "Saptaparni_healthy": {
+    "scientific_name": "Alstonia scholaris",
+    "common_name": "Devil's Tree (Saptaparni)",
+    "plant_health_status": "Healthy",
+    "medicinal_properties": [
+      "Antimalarial properties",
+      "Antimicrobial effects",
+      "Anti-inflammatory activity",
+      "Antidiabetic properties",
+      "Cardiovascular health support",
+      "Respiratory health aid",
+      "Traditional remedy for fevers",
+      "Digestive system support",
+      "Antioxidant properties"
+    ],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Provide full sun to partial shade",
+      "Water moderately, allowing soil to dry between waterings",
+      "Use well-draining, fertile soil",
+      "Fertilize lightly during growing season",
+      "Prune to maintain shape and remove dead wood",
+      "Protect from extreme cold temperatures",
+      "Monitor for pests and diseases regularly",
+      "Can be grown in various soil types"
+    ]
+  },
+  "unknown": {
+    "scientific_name": "Unknown",
+    "common_name": "Not a medicinal plant",
+    "plant_health_status": "Unknown",
+    "medicinal_properties": [],
+    "detected_diseases": [],
+    "care_recommendations": [
+      "Please upload a valid medicinal plant leaf for analysis."
+    ]
+  }
+}
