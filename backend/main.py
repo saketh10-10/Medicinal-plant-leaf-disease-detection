@@ -12,9 +12,34 @@ from predict import predict_image
 app = FastAPI(title="Medicinal Plant Analysis API")
 
 # CORS middleware to allow frontend requests
+# Get allowed origins from environment variable or use defaults
+allowed_origins = os.getenv(
+    "ALLOWED_ORIGINS",
+    "http://localhost:5173,http://localhost:5174,http://localhost:5175"
+).split(",")
+
+# Also add common Vercel patterns if not already included
+vercel_domain = os.getenv("VERCEL_URL")
+if vercel_domain:
+    # Add both http and https versions
+    if vercel_domain not in allowed_origins:
+        allowed_origins.append(vercel_domain)
+    if vercel_domain.startswith("http://"):
+        https_version = vercel_domain.replace("http://", "https://")
+        if https_version not in allowed_origins:
+            allowed_origins.append(https_version)
+    elif not vercel_domain.startswith("https://"):
+        # If no protocol, add both
+        allowed_origins.extend([
+            f"https://{vercel_domain}",
+            f"http://{vercel_domain}"
+        ])
+
+# For production, you can also allow all origins with: allow_origins=["*"]
+# But it's better to specify exact domains for security
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:5174", "http://localhost:5175"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
