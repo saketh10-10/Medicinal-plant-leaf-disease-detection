@@ -50,11 +50,15 @@ backend/dataset_processed/
 raw_dataset/
 dataset_processed/
 
-# Model files (typically too large for GitHub - use Git LFS if needed)
-*.pth
-*.h5
-*.pkl
-backend/plant_disease_model.pth
+# Model files (use Git LFS if file > 100MB)
+# Uncomment below if model file is too large for GitHub
+# *.pth
+# *.h5
+# *.pkl
+# backend/plant_disease_model.pth
+
+# Allow specific model file for deployment
+!backend/plant_disease_model.pth
 
 # Large image files in backend root (test images only - keep src assets)
 backend/*.JPG

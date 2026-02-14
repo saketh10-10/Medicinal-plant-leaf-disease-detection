@@ -1,0 +1,26 @@
+# Ignore files for Render deployment
+frontend/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+ENV/
+raw_dataset/
+dataset_processed/
+*.png
+*.jpg
+*.jpeg
+!backend/plant_disease_model.pth
+!backend/plant_info.json
+!backend/class_names.json
+
